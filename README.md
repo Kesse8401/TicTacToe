@@ -14,4 +14,4 @@ This project is being created with the use of ES6 and plain JavaScript. I chose 
 3. Tests
 
 This project does not include any tests, as it structure is fairly simple and including tests would unnecessarily overcomplicate it.
-Tests would be added further down the line, as my understanding of ecosystem improves.
+Tests would be added further down the line, as my understanding of the ecosystem improves.
