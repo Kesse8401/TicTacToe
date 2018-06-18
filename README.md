@@ -1,5 +1,3 @@
-Rozpoczęcie projektu.
-
 1. Project info
 This project is about creating simple Tic Tac Toe game.
 It suppose to:
@@ -11,8 +9,9 @@ It suppose to:
 
 2. Technology
 
-This project is being created with the use of JavaScript. I chose that language because I can create all elements mentioned above.
+This project is being created with the use of ES6 and plain JavaScript. I chose plain JavaScript as it allows me to implement all necessary elements mentioned above, and helps me to achieve deeper understanding of the language.
 
 3. Tests
 
 This project does not include any tests, as it structure is fairly simple and including tests would unnecessarily overcomplicate it.
+Tests would be added further down the line, as my understanding of ecosystem improves.
