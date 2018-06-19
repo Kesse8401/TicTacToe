@@ -1,0 +1,19 @@
+{
+  "name": "tictactoegit",
+  "version": "1.0.0",
+  "description": "Simple Game",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kesse8401/TicTacToe.git"
+  },
+  "author": "Agnes Nowak",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Kesse8401/TicTacToe/issues"
+  },
+  "homepage": "https://github.com/Kesse8401/TicTacToe#readme"
+}
