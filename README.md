@@ -15,18 +15,21 @@ It suppose to:
 - acknowledge end of the game by getting one of the winning combinations
 - display the result/winner
 
-You can find a copy of the project here: https://github.com/Kesse8401/TicTacToe
+
 
 
 Prerequisites
 
 /* What things you need to install the software and how to install them */
 
-Live-server is required to start the project. You can find it here: https://www.npmjs.com/package/live-server along with the instructions regarding installing
+!!!node (and the version you currently have)
+npm version 6.1.0
 
-You can install live-server locally by navigating you your target file and adding this command to your terminal:
+Steps you need to complete to install:
 
-npm install live-server --saveDev
+- Clone the repository
+- npm install
+- npm start
 
 
 
@@ -46,20 +49,10 @@ This project does not include any tests, as it structure is fairly simple and in
 Tests would be added further down the line, as my understanding of the ecosystem improves.
 
 
-Deployment
-
-/* Add additional notes about how to deploy this on a live system */
-
-
 Built With
 
 This project is being created with the use of ES6, plain JavaScript and Node.js. I chose plain JavaScript as it allows me to implement all necessary elements mentioned above, and helps me to achieve deeper understanding of the language.
 I used one of npm module- live-server in order to work with HotReload
-
-
-Versioning
-
-First version 1.1.1
 
 
 Author
