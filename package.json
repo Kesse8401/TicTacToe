@@ -16,7 +16,7 @@
     "url": "https://github.com/Kesse8401/TicTacToe/issues"
   },
   "homepage": "https://github.com/Kesse8401/TicTacToe#readme",
-  "dependencies": {
+  "devDependencies": {
     "live-server": "^1.2.0"
   }
 }
