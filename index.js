@@ -15,3 +15,7 @@ const square = () => {
    Nalezy podmienić string "tile number" na array providujący numery od 0-8 eby concole.log mógł wskazać które pole zostało kliknięte.
    How to use appropriate pointer on roll over without css and html?  */
 
+
+   // if (x turn == true ) {
+   //   X cursor shows}
+   // else (0 cursor shows};
