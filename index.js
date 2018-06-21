@@ -11,10 +11,6 @@ const square = () => {
 
 
 
-/* Skąd whichTile ma wiedzieć który tile został clicknięty skoro nie ma zadnych tajli do klikniecia?
-   Nalezy podmienić string "tile number" na array providujący numery od 0-8 eby concole.log mógł wskazać które pole zostało kliknięte.
-   How to use appropriate pointer on roll over without css and html?  */
-
 /* 
 
 let currentPlayer = player1;
