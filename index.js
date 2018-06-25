@@ -8,3 +8,9 @@ const square = () => {
  	return tile;									
 };
 
+const wholeBoard = () => {
+    const gameBoard = document.createElement('div');
+    gameBoard.setAttribute("id", "gameBoard");
+    document.body.appendChild(gameBoard);
+    return gameBoard; 
+ };
