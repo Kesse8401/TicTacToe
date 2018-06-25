@@ -7,3 +7,7 @@ const square = () => {
     tile.className = 'field';
  	return tile;									
 };
+
+const board = () => {
+
+};
