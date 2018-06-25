@@ -1,16 +1,24 @@
 const tileOnClickHandler = () => console.log('tile number');
                                                                     
 
-const square = () => {
+const square = (pipko) => {
     const tile = document.createElement('div');
     tile.addEventListener( 'click', tileOnClickHandler );
     tile.className = 'field';
- 	return tile;									
+    tile.setAttribute('id', pipko);
+  	return tile;									
 };
 
 const wholeBoard = () => {
-    const gameBoard = document.createElement('div');
-    gameBoard.setAttribute("id", "gameBoard");
-    document.body.appendChild(gameBoard);
-    return gameBoard; 
+    let gameBoard = document.getElementById('gameBoard');
+    if(gameBoard === null ) {
+        gameBoard = document.createElement('div');
+        gameBoard.setAttribute("id", "gameBoard");
+        document.body.appendChild(gameBoard);   
+        for (let i = 0; i < 9; i++) {
+           const mytile = square(i);
+           gameBoard.appendChild(mytile);
+        }; 
+    }
+    return gameBoard;
  };
