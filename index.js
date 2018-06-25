@@ -8,6 +8,11 @@ const square = () => {
  	return tile;									
 };
 
-const board = () => {
-
+const wholeBoard = () => {
+   for (var i = 0; i < 9; i++) {
+    document.getElementsByClassName('singleTile').innerHTML;
+    console.log("weee");
+    };
 };
+
+wholeBoard();
