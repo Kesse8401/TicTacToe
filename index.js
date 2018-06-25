@@ -1,11 +1,11 @@
 const tileOnClickHandler = () => console.log('tile number');
                                                                     
 
-const square = (pipko) => {
+const square = (idParam) => {
     const tile = document.createElement('div');
     tile.addEventListener( 'click', tileOnClickHandler );
     tile.className = 'field';
-    tile.setAttribute('id', pipko);
+    tile.setAttribute('id', idParam);
   	return tile;									
 };
 
