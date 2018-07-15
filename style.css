@@ -17,17 +17,9 @@
    height: 30px;
 }
 
-.circle {
-    color: black;
-    width: 15px;
-    height: 15px;
-    font-family: 'Indie Flower', cursive;
+.tile :after {
+    content: "X";
+    font-family: 'Gaegu', cursive;
 }
-
-.cross {
-    color: black;
-    width: 15px;
-    height: 15px;
-    font-family: 'Indie Flower', cursive;
-}
+ 
 
