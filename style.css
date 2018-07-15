@@ -1,29 +1,24 @@
-.field {                        /* It looks like field and gameboard are very similar. WHich class is unnecessary? */
+.field {                        
     cursor: pointer;
     background-color: red;
-    width: 300px;
-    height: 300px;
+    width: 100px;
+    height: 100px;
 }
 
 #gameBoard {                    
-    width: 300px;
-    height: 300px;
+    width: 302px;
+    height: 302px;
     border: 1px solid black;
 }
 
-.tile {
-   background-color: blueviolet;
-   width: 30px;
-   height: 30px;
-}
 
-.cross :after {
+.cross::after {
     content: "X";
     color: black;
     font-family: 'Gaegu', cursive;
 }
 
-.circle :after {
+.circle::after {
     content: "O";
     color: black;
     font-family: 'Gaegu', cursive;
