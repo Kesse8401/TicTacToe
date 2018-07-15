@@ -1,11 +1,11 @@
-.field {
+.field {                        /* It looks like field and gameboard are very similar. WHich class is unnecessary? */
     cursor: pointer;
     background-color: red;
     width: 300px;
-    height: 1px;
+    height: 300px;
 }
 
-#gameBoard {
+#gameBoard {                    
     width: 300px;
     height: 300px;
     border: 1px solid black;
@@ -17,9 +17,16 @@
    height: 30px;
 }
 
-.tile :after {
+.cross :after {
     content: "X";
+    color: black;
     font-family: 'Gaegu', cursive;
 }
+
+.circle :after {
+    content: "O";
+    color: black;
+    font-family: 'Gaegu', cursive;
+  }
  
 
