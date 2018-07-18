@@ -22,3 +22,4 @@ const wholeBoard = () => {
     }
     return gameBoard;
  };
+

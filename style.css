@@ -1,7 +1,27 @@
-.field {
+.field {                        
     cursor: pointer;
     background-color: red;
     width: 100px;
     height: 100px;
 }
+
+#gameBoard {                    
+    width: 302px;
+    height: 302px;
+    border: 1px solid black;
+}
+
+
+.cross::after {
+    content: "X";
+    color: black;
+    font-family: 'Gaegu', cursive;
+}
+
+.circle::after {
+    content: "O";
+    color: black;
+    font-family: 'Gaegu', cursive;
+  }
+ 
 
